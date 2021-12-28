@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Skribble</title>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="container">
+        
+        <div id="undo-button" class="buttonlikeelement undo">Undo</div>
+        <div id="clear-button" class="buttonlikeelement">Clear</div>
+        <input onInput="fontSize = this.value" type="range" min="1" max="30" class="pen-range" value="2">
+        <input onInput="draw_color = this.value" type="color" class="color-picker">
+    </div>
+    <script src="canvas.js"></script>
+</body>
+
+</html>
