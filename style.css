@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #659DBD;
     /* box-sizing: border-box; */
+}
+
+body {
+    background-color: #659DBD;
 }
 
 #canvas {
@@ -51,8 +54,7 @@
     align-self: center;
 }
 
-.color-picker {
-    margin-top: 26px;
-    margin-left: 20px;
-    -webkit-appearance: none;
+.pickr {
+    left: 50%;
+    top: 45%;
 }
